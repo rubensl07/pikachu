@@ -8,12 +8,20 @@ body{
     display: grid;
     grid-template-rows: 100px 1fr 50px;
     padding: 70px 70px 24px 70px;
-    background-color: #FFF689
-
+    background-color: #f5cf06;
+    font-family: 'Righteous', cursive;
+    color:#8E4106;
 }
-header{
-    background-color: tomato;
-    height: 100px
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo__text{
+    font-size: 32px;
+    font-weight: 100;
 }
 main{
     background-color: orange
